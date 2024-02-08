@@ -10,7 +10,6 @@ const Info = () => {
     {showInfo && <div className=" w-52 absolute text-sm flex bg-gray-200 rounded-lg p-2">
       <ul className="list-disc flex flex-col">
         <li>Devloped using Vite, React, Typescript, TailwindCSS</li>
-        <li>Complete UI Replication</li>
         <li>Backspace on Empty search would highlight the Chip</li>
         <li>Pressing Backspace again would delete the latest chip.</li>
         <li>Keyboard Key Bindings:
