@@ -17,6 +17,17 @@ InteractiveChipSelector is a dynamic and interactive input rendering tool develo
 - **User-Friendly Interface**: Intuitive user interface design ensures ease of use for both novice and experienced users.
 - **Built from Scratch**: Every component is built from scratch in React without using any external component libraries like MUI.
 
+## Demo Video
+
+https://github.com/maanasb01/Interactive-Chip-Selector/assets/94924895/9ac7968b-ee91-462a-9338-ea31298b83c1
+
+## Photos
+
+![AddUser2](https://github.com/maanasb01/Interactive-Chip-Selector/assets/94924895/e7656ec2-4462-4174-bd63-5b9da5c8d797)
+![AddUser3](https://github.com/maanasb01/Interactive-Chip-Selector/assets/94924895/522e481b-b684-4885-8fbe-431f28531820)
+![AddUser1](https://github.com/maanasb01/Interactive-Chip-Selector/assets/94924895/72bb3064-9fba-4b9f-ae06-0609239adae2)
+
+
 ## Getting Started
 
 ### Prerequisites
