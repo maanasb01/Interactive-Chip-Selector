@@ -1,30 +1,68 @@
-# React + TypeScript + Vite
+# InteractiveChipSelector
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+InteractiveChipSelector is a dynamic and interactive input rendering tool developed using Vite, React, TypeScript, and Tailwind CSS. It enables users to efficiently select and display items as chips through a user-friendly interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Filtering**: As you type in the input field, a list of matching items is dynamically filtered and displayed.
+- **Interactive Selection**: Clicking on an item in the filtered list turns it into a chip at the top of the input field.
+- **Automatic Adjustment**: The input field adjusts automatically as items are selected, ensuring a seamless user experience.
+- **Chip Removal**: Each chip includes an "X" icon for removal. Clicking the icon removes the chip and adds the item back to the list.
+- - **Backspace Deletion Functionality**: Pressing backspace on an empty search field highlights the latest chip. Pressing backspace again deletes the highlighted chip.
+- **Keyboard Shortcuts**: Convenient keyboard shortcuts enhance usability, including:
+  - `Esc` to quit searching
+  - Arrow keys for navigation within the search results
+  - `Enter` to select an item
+  - `Backspace` functionality for managing chips
+- **User-Friendly Interface**: Intuitive user interface design ensures ease of use for both novice and experienced users.
+- **Built from Scratch**: Every component is built from scratch in React without using any external component libraries like MUI.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+To run this project, you need to have the following dependencies installed:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/) (recommended, though you can use npm as well)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installation
+
+1. Clone this repository to your local machine.
+
+2. Install the project dependencies using Yarn (Recommended):
+
+    ```bash
+    yarn install
+    ```
+
+    **OR**
+
+    You can also use npm:
+
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+### Development
+
+During development, start the development using the following command:
+
+    yarn dev
+
+**OR (Using npm)**
+    
+    npm run dev
+
+### Production
+
+To build the app, use the following command:
+
+    yarn build
+
+
+**OR (Using npm)**
+
+    npm run build
