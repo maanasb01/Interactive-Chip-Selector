@@ -8,7 +8,7 @@ InteractiveChipSelector is a dynamic and interactive input rendering tool develo
 - **Interactive Selection**: Clicking on an item in the filtered list turns it into a chip at the top of the input field.
 - **Automatic Adjustment**: The input field adjusts automatically as items are selected, ensuring a seamless user experience.
 - **Chip Removal**: Each chip includes an "X" icon for removal. Clicking the icon removes the chip and adds the item back to the list.
-- - **Backspace Deletion Functionality**: Pressing backspace on an empty search field highlights the latest chip. Pressing backspace again deletes the highlighted chip.
+- **Backspace Deletion Functionality**: Pressing backspace on an empty search field highlights the latest chip. Pressing backspace again deletes the highlighted chip.
 - **Keyboard Shortcuts**: Convenient keyboard shortcuts enhance usability, including:
   - `Esc` to quit searching
   - Arrow keys for navigation within the search results
